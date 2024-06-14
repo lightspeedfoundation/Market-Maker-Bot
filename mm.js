@@ -10,7 +10,7 @@ const buyAmount = ethers.parseUnits('0.001', 'ether');
 const targetPrice = BigInt(35); // target exchange rate
 const targetAmountOut = buyAmount * targetPrice;
 const sellAmount = buyAmount / targetPrice;
-const tradeFrequency = 360 * 1000; // ms (once per hour)
+const tradeFrequency = 360 * 1000; // ms (once per 6 minutes)
 
 // `https://eth-mainnet.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`
 const provider = new ethers.JsonRpcProvider(`https://eth-goerli.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`);
