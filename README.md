@@ -14,7 +14,7 @@ The following are the steps on how to set up the Uniswap market maker trading bo
 
 - Clone the repository from GitHub.
 - Install the necessary libraries with the Node package manager (npm). `npm install`
-- update .env samlple file and add your private key and Alchemy API key. Save filename as `.env`
+- update .env sample file and add your private key and Alchemy API key. Save filename as `.env` 
 - Edit the mm.js file to specify the target price.
 - Run `node mm.js`
 
