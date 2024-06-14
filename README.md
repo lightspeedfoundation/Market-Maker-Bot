@@ -8,16 +8,16 @@ The Uniswap market maker trading bot works by automatically buying and selling t
 
 The bot is programmed to use a fixed target price, but it can also be adapted to use a dynamic target price. A dynamic target price can be based on a linear price path or something like a simple moving average of past prices.
 
-The bot can be used to trade any pair of tokens that are listed on Uniswap v3 on any EVM compatible chain. The bot is setup as default to be run on the ETH/UNI pool on Goerli testnet, which allows users to test the bot without using real funds.
+The bot can be used to trade Speed/Weth on Base.
 
 The following are the steps on how to set up the Uniswap market maker trading bot:
 
-- Fork the repository from GitHub.
-- Install the necessary libraries with the Node package manager (npm).
-- Create a .env file and add your private key and Alchemy API key.
-- Edit the mm.js file to specify the tokens that you want to trade and the target price.
+- Clone the repository from GitHub.
+- Install the necessary libraries with the Node package manager (npm). `npm install`
+- update .env samlple file and add your private key and Alchemy API key. Save filename as `.env`
+- Edit the mm.js file to specify the target price.
 - Run `node mm.js`
 
-The bot will start trading and will automatically buy and sell tokens in order to maintain the target price.
+The bot will start trading $Speed and will automatically buy and sell tokens in order to maintain the target price.
 
 Note the code is for demonstration purposes only and is not battle tested in a production environment.
