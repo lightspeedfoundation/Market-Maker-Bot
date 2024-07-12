@@ -2,7 +2,7 @@ const ethers = require('ethers');
 require("dotenv").config();
 
 const wethAddress = '0x4200000000000000000000000000000000000006'; // Base mainnet weth 
-const routerAddress = '0x2626664c2603336E57B271c5C0b26F421741e481'; // Uniswap Router - Base
+const routerAddress = '0x4752ba5DBc23f44D87826276BF6Fd6b1C372aD24'; // Uniswap Router - Base
 const quoterAddress = '0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a'; // Uniswap Quoter - Base
 const tokenAddress = '0xB01CF1bE9568f09449382a47Cd5bF58e2A9D5922'; // Speed uni
 const fee = 100; // Uniswap pool fee bps 100, 3000, 10000
